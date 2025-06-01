@@ -1,15 +1,16 @@
 # Pokedex
 
-List of pokemons with details. Made with React.
+List of pokemons with details. Made with React. 
+Website -> https://sunder-at.github.io/Pokedex/
 
 ## Running locally
 
-### `npm install`
+Install required modules.
+ `npm install`
 
-To install required modules.
 
-### `npm start`
 
-Starts server on http://localhost:3000/pokedex .
+Start server on http://localhost:3000/pokedex .
+ `npm start`
 
 

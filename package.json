@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "private": true,
   "author": "Sunder",
-  "github": "https://github.com/Sunder-at/",
+  "homepage": "https://sunder-at.github.io/Pokedex/",
   "dependencies": {
     "hardtack": "5.0.1",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "2.2.1",
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
